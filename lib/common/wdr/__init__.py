@@ -52,3 +52,6 @@ def versionInfo():
     else:
         logger.warning( 'the client is not connected to live server instance' )
 
+def getVersion():
+    return str(MAJOR_VERSION) + '.' + str(MINOR_VERSION)
+

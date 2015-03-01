@@ -19,7 +19,6 @@ import imp
 import os
 
 pathToFile = os.path.join('lib', 'common', 'wdr', '__init__.py')
-print pathToFile
 
 setup(name='wdr',
       version=imp.load_source('wdr', pathToFile).getVersion(),
